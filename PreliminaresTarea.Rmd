@@ -1,0 +1,250 @@
+---
+title: "Preliminares - Tarea"
+author: "Francisco"
+date: "2022-08-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Pregunta 1
+
+  **Respuesta: ** No, porque el elemento inverso de los enteros no pertenece al conjunto y esto invalida una de las condiciones para que un conjunto sea un cuerpo.
+
+## Pregunta 2
+
+- $(2 + 3i) + (1 + i)$
+
+  **Respuesta:**
+
+  = $(2+1) + (3+1)i = 3 + 4i$
+  
+- $(1 + i) + (1 - i)$
+
+  **Respuesta:**
+
+  = $(1+1) + (1-1)i = 2 + 0i$
+  
+- $(x^2 + x + 1) + (x - 1)$
+
+  **Respuesta:**
+
+  = $x^2 + (x+x) +(1-1)$
+  = $x^2 +2x$ 
+
+## Pregunta 3
+
+- $(2 + 3i) * (1 + i)$
+
+  **Respuesta:**
+  
+  = $((2*1) - (3*1)) + ((2*1) + 3*1)i$
+  = $2-3 + (2 +3)i$
+  = $-1 + 5i$
+  
+- $(1 + i)  (1 - i)$
+
+  **Respuesta:**
+  
+  = $((1*1) - (1*(-1))) + (1*(-1) + (1*1))i$
+  = $(1 + 1) + (0)i$
+  = $2 + 0i$
+  
+- $(x^2 + x + 1)(x - 1)$
+  
+  **Respuesta:**
+  
+  = $x (x^2 + x +1 ) + (-1) (x^2 + x +1 )$
+  = $x^3 + x^2 + x -x^2 -x -1$
+  = $x^3 - 1$
+  
+- $(x + 1)^2$
+  
+  **Respuesta:**
+  
+  = $(x + 1) (x + 1) = x^2 + 2x +1$ 
+  
+- $(x + 1)  (x - 1)$
+  
+  **Respuesta:**
+  
+  = $x^2 - x + x + 1*-1$
+  = $x^2 -1$
+  
+## Pregunta 4
+- $2 + 3i$
+
+  **Respuesta:**
+  
+  $Mod (2 + 3i) =\sqrt{(2)^2 +(3)^2} =\sqrt{13}$ 
+  
+- $i$
+
+  **Respuesta:**
+  
+  $Mod (0 + i)  =\sqrt{(0)^2 + (1)^2} = 1$
+  
+- $(2 + 3i) + (1 + i)$
+
+  **Respuesta:**
+  
+  $(2 + 3i) + (1 + i) = 3 + 4i$
+  
+  $Mod (3+4i) = \sqrt{(3)^2 + (4)^2} = 5$
+   
+- $(1 + i) + (1 - i)$
+
+  **Respuesta:**
+  
+  $Mod (2 + 0i) = \sqrt{(2)^2 + 0} = 2$
+  
+- $(2 + 3i)  (1 + i)$
+
+  **Respuesta:**
+  
+  $(2 + 3i)  (1 + i) = (2*1-3*1) + (2*1 + 3*1)i\\= -1 + 5i$
+  
+  $Mod (-1 + 5i) = \sqrt{(-1)^2 + (5)^2} = \sqrt{26}$
+  
+- $(1 + i)  (1 - i)$
+
+  **Respuesta:**
+  
+  $(1 +  i)  (1 - i) = (1*1-1*(-1)) + (1*(-1) + 1*1)i\\= 2 + 0i$
+  
+  $Mod (2 + 0i) = \sqrt{(2)^2 + 0} = 2$
+
+## Pregunta 5
+- $2x + 2$
+
+  **Respuesta:**
+  
+  grado 1
+
+- $x^5 + 3x + 2$
+
+  **Respuesta:**
+  
+  grado 5
+ 
+- $(x^2 + x + 1)(x - 1)$
+
+  **Respuesta:**
+  
+  = $x (x^2 + x +1 ) + (-1) (x^2 + x +1 )$
+  = $x^3 + x^2 + x -x^2 -x -1$
+  = $x^3 - 1$
+  
+  grado 3
+
+- $(x + 1)^2$
+
+  **Respuesta:**
+  
+  $x^2 + 2x +1$
+  
+  grado 2
+
+- $(x + 1)(x - 1)$
+
+  **Respuesta:**
+  
+  $x^2 - 1$
+
+  grado 2
+  
+## Pregunta 6
+
+- $(x + 1)^2$ y $x^2 + 1$
+  
+  **Respuesta:**
+  
+  $(x + 1)^2 = (X + 1)(x + 1) = x^2 + 2x + 1$
+
+  Por lo tanto, no son iguales.
+  
+- $(x + 1)^2$ y $x^2 + 2x + 1$
+  
+  **Respuesta:**
+  
+  $(x + 1)^2 (x + 1)(x + 1) = x^2 + 2x +1$ 
+  
+  Por lo tanto, sí son iguales.
+  
+- $(x + 1)^3$ y $x^3 + 1$
+  
+  **Respuesta:**
+
+  $(x + 1)^3 = 1 + 3*x + 3*x^2 + x^3$
+  
+  Por lo tanto, no son iguales.
+
+- $(x + 1)^3$ y $x^3 + 3x^2 + 3x + 1$
+  
+  **Respuesta:**
+
+  $(x + 1)^3 = (x + 1)(x + 1) (x + 1) = 1 + 3*x + 3*x^2 + x^3$
+  
+  Por lo tanto, sí son iguales.
+
+- $(x + 1)(x - 1)$ y $x^2 - 1$
+
+  **Respuesta:**
+  
+  $x^2 -x + x - 1 = x^2 - 1$
+  
+  Por la tanto, sí son iguales.
+  
+- $(x - 1)^2$ y $x^2 -2x + 1$
+
+  **Respuesta:**
+  
+  $(x - 1)^2 = (x - 1)(x - 1) = x^2 -x -x +1$
+  
+  Por lo tanto, sí son iguales.
+
+## Pregunta 7
+
+- $2x +2$
+  
+  $2x + 2 = 0 x = -2/2 = -1$
+  
+  **Raíces:** x = -1
+
+- $x^5 + 3x + 2$
+
+  Utilizando la función polyroot() de R:
+  
+  polyroot(c(2,3,1))
+  
+  **Raíces:** x = -0.6328345 + 0.000000i, x = -0.7484685+0.995434i,
+  x = -0.7484685-0.995434i, x = 1.0648858-0.950546i y  
+  x = 1.0648858+0.950546i
+  
+- $(x^2 + x + 1)(x - 1)$
+
+  Utilizando la función polyroot() de R:
+  
+  x-1 = 0 = 1
+  
+  polyroot((c(1,1,1))) 
+  
+  **Raíces:** x = -0.5 + 0.8660254i, x =  -0.5 - 0.8660254i y x = 1
+  
+- $(x + 1)^2$
+  
+  (x + 1)(x + 1) = 0, x+1 = 0 y x +1 = 0
+  
+  **Raíces:** x = -1 con multiplicidad doble
+  
+- $(x + 1)(x - 1)$
+
+  $x + 1 = 0$ y $x - 1 = 0$
+  
+  **Raíces:** x = -1, 1
+  
+  
